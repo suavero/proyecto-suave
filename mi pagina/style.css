@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header h1{
+    color:rgba(0, 140, 255, 0.651)
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: brown;
+}
+
+.inicia-pagina{
+    display: flex;
+    height: 500px;
+    background-image: url(./imagenes.db/200.webp);
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.inicia-pagina h2 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.inicia-pagina button{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 245);
+    color: blue;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.inicia-pagina button:hover{
+    font-size: 25px;
+    color: brown;
+}
+
+.content-pagina{
+    text-align: center;
+}
+
+.content-pagina h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: blue;
+}
+
+.content-pagina p{
+    font-weight: 900;
+}
+
+.content-secudario h2{
+    font-size: 27px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.content-secudario{
+    padding: 10px;
+    font-weight: 700;
+}
+
+.content-secudario img{
+    padding: 25px;
+    transition: 2.2s;
+}
+
+.content-secudario img:hover{
+    height: 300px;
+}
+
+.section-de-informacion a{
+    text-decoration: none;
+}
+
+.section-de-informacion button{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 1%;
+    background-color: rgb(253, 27, 27);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.section-de-informacion button:hover{
+    font-size: 26px;
+}
+
+.section-de-informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 20px; /* Espaciado entre columnas */
+}
+
+.section-de-informacion{
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.final-content-principal{
+    padding: 25px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Dos columnas iguales */
+    gap: 20px; /* Espaciado entre columnas */
+}
+
+.final-content-principal img{
+    height: 400px;
+}
+
